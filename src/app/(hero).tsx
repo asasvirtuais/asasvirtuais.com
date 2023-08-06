@@ -23,7 +23,7 @@ const Header = () => (
                 An <Text as='span' color={'blue.500'}>open source</Text> initiative
                 <br />
                 <Text as={'span'} color='black' >
-                    for professionals and hobbyists
+                    for web development
                 </Text>
             </Heading>
         </VStack>
