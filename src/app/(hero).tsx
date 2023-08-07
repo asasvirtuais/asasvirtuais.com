@@ -39,14 +39,38 @@ const TitleBox = () => (
     </Card>
 )
 
-const InfoBox = () => (
-    <Card>
+const AuthenticationPlatform = () => (
+    <>
+        <CardBody>
+        </CardBody>
+        <CardFooter>
+        </CardFooter>
+    </>    
+)
+
+const ChatbotPlatform = () => (
+    <>
+        <CardBody>
+        </CardBody>
+        <CardFooter>
+        </CardFooter>
+    </>    
+)
+
+const PlanMoreSpendLess = () => (
+    <>
         <CardBody>
             <Image src='/cost-change-analysis.png' width={741} height={473} alt='cost of changes graph' priority />
         </CardBody>
         <CardFooter>
             <Text w='100%' textAlign='center'><b>Plan more, spend less</b></Text>
         </CardFooter>
+    </>
+)
+
+const InfoBox = () => (
+    <Card>
+        <PlanMoreSpendLess/>
     </Card>
 )
 
