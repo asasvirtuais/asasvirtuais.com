@@ -10,7 +10,7 @@ import Hero from './(hero)'
 export default function Home() {
     return (
         <Chakra>
-            <Container as='main' zIndex={0} mb={'-72px'} maxW='container.lg'>
+            <Container as='main' mb='-72px' maxW='container.xl'>
                 <Hero />
             </Container>
             <Footer />

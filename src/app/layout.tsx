@@ -1,15 +1,19 @@
 import { Metadata } from 'next'
-import { comfortaa } from '@/font'
-import { Analytics } from '@vercel/analytics/react'
-import { title, description } from './(wording)'
-import makeMetadata from '@/make-metadata'
-import bg from '../../public/background.svg'
 import Script from 'next/script'
-import GTagIFrame from './(gtag-iframe)'
+import { Analytics } from '@vercel/analytics/react'
 import { Partytown } from '@builder.io/partytown/react'
 
+import { comfortaa } from '@/font'
+import makeMetadata from '@/make-metadata'
+
+import { title, description } from './(wording)'
+import GTagIFrame from './(gtag-iframe)'
+
+import bg from '../../public/background.svg'
+
 export const metadata : Metadata = makeMetadata(
-  title, description
+  title,
+  description
 )
 
 export default function RootLayout({
@@ -18,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <head>
         {/* <!-- Google Tag Manager --> */}
         <Partytown debug={true} forward={['dataLayer.push']} />
@@ -33,7 +37,7 @@ export default function RootLayout({
         </Script>
         {/* <!-- End Google Tag Manager --> */}
       </head>
-      <link rel="preload" href="/background.svg" as="image" type="image/svg+xml"/>
+      <link rel='preload' href='/background.svg' as='image' type='image/svg+xml'/>
       <body style={{
         backgroundColor: '#ffffff',
         backgroundImage: `url(${bg.src})`
