@@ -6,14 +6,17 @@ import Chakra from '@/chakra'
 import Footer from '@/app/(footer)'
 
 import Hero from './(hero)'
+import Navbar from './(navbar)'
+import Background from './(background)'
 
 export default function Home() {
     return (
         <Chakra>
-            <Container as='main' mb='-72px' maxW='container.xl'>
+            <Background/>
+            <Navbar/>
+            <Container as='main' maxW='container.xl'>
                 <Hero />
             </Container>
-            <Footer />
         </Chakra>
     )
 }

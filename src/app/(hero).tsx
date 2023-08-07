@@ -1,3 +1,4 @@
+import { useColor } from '@/theme'
 import {
     Heading,
     Text,
@@ -8,28 +9,30 @@ import {
     chakra,
     Card,
     CardBody,
+    CardFooter,
 } from '@chakra-ui/react'
-import { description } from './(wording)'
+import Image from 'next/image'
 
 const Title = () => (
     <Heading
         as='h2'
-        w='100%'
+        w='auto'
         mb={4}
-        fontSize={{ base: '4xl', sm: '4xl', md: '6xl' }}
+        color={useColor()}
+        fontSize={{ base: '4xl', md: '6xl' }}
         fontWeight={600}
-        lineHeight='110%' color='#333'>
-            Asas <chakra.span>Virtuais</chakra.span>
+        lineHeight='110%'>
+            Asas<br/><chakra.span whiteSpace='pre'>{' '}Virtuais</chakra.span>
     </Heading>
 )
     
 const Slogan = () => (
-    <Text fontSize='lg'>{description}</Text>
+    <Text fontSize='lg'>An Open Source initiative</Text>
 )
 
 const TitleBox = () => (
     <Card>
-        <CardBody as={VStack}>
+        <CardBody justifyContent='center' as={VStack}>
             <Title/>
             <Slogan/>
         </CardBody>
@@ -37,9 +40,14 @@ const TitleBox = () => (
 )
 
 const InfoBox = () => (
-    <VStack>
-
-    </VStack>
+    <Card>
+        <CardBody>
+            <Image src='/cost-change-analysis.png' width={741} height={473} alt='cost of changes graph' priority />
+        </CardBody>
+        <CardFooter>
+            <Text w='100%' textAlign='center'><b>Plan more, spend less</b></Text>
+        </CardFooter>
+    </Card>
 )
 
 export default function Hero() {
@@ -47,11 +55,10 @@ export default function Hero() {
         <Center
             as='header'
             w='100%'
-            pb='72px'
             minH='100vh'
             flexDir='column'>
                 <SlideFade style={{width: '100%'}} in={true} offsetY='200px'>
-                    <SimpleGrid columns={{base: 1, md: 2}} w='100%'>
+                    <SimpleGrid gap={4} columns={{base: 1, md: 2}} w='100%'>
                         <TitleBox/>
                         <InfoBox/>
                     </SimpleGrid>
