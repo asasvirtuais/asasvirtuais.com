@@ -14,8 +14,7 @@ export default function PageLayout({
 }) {
   return (
     <RootLayout>
-        {children}
-        <Analytics/>
+      {children}
     </RootLayout>
   )
 }
