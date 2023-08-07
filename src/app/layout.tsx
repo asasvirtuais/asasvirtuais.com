@@ -37,10 +37,10 @@ export default function RootLayout({
         </Script>
         {/* <!-- End Google Tag Manager --> */}
       </head>
-      <link rel='preload' href='/background.svg' as='image' type='image/svg+xml'/>
+      {/* <link rel='preload' href='/background.svg' as='image' type='image/svg+xml'/> */}
       <body style={{
-        backgroundColor: '#ffffff',
-        backgroundImage: `url(${bg.src})`
+        // backgroundColor: '#ffffff',
+        // backgroundImage: `url(${bg.src})`
       }} className={comfortaa.className}>
           <GTagIFrame/>
           {children}
