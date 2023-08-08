@@ -27,7 +27,7 @@ const Title = () => (
 )
     
 const Slogan = () => (
-    <Text fontSize='lg'>An Open Source initiative</Text>
+    <Text fontSize='lg'>An open-source initiative</Text>
 )
 
 const TitleBox = () => (

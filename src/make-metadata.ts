@@ -13,7 +13,7 @@ const rootMetadata : Metadata = {
     telephone: false,
   },
   icons: ['https://asasvirtuais.com/favicon.ico', 'https://asasvirtuais.com/icon.png'],
-  keywords: ['programming', 'open source', 'web'],
+  keywords: ['programming', 'open-source', 'web'],
   openGraph: {
     url: 'https://asasvirtuais.com',
     siteName: 'Asas Virtuais',

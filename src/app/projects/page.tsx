@@ -44,8 +44,8 @@ export default function Home() {
                                     User authentication using the most modern protocols.
                                     The increasing number of websites, apps, platforms, portals, blogs, etc.. made it very complicated for users to manage their passwords. The risk of loosing an important asset makes it unviable to simply use the same password across different accounts, while the number of passwords to be remembered is far too much for most of us.
                                     Out of the many protocols that attempted to solve for this, OAuth has been the most adopted, and we believe that the future of OAuth is the a more device-centric authentication mechanism.
-                                    While we believe that authentication mechanisms must be an open initiative with a lot of open source code available. We still would like to make of mention of <Link href='https://www.okta.com/'>Okta</Link> for its leading role on unifying user authentication with platforms like Auth0 which provide clear documentation, and a lot of legal guarantees to their users.
-                                    Asas Virtuais aims to contribute to the open source user authentication community by providing a more specific implementation of OAuth protocols, specifically we have been integrating the many OAuth providers and streamlining the process.
+                                    While we believe that authentication mechanisms must be an open initiative with a lot of open-source code available. We still would like to make of mention of <Link href='https://www.okta.com/'>Okta</Link> for its leading role on unifying user authentication with platforms like Auth0 which provide clear documentation, and a lot of legal guarantees to their users.
+                                    Asas Virtuais aims to contribute to the open-source user authentication community by providing a more specific implementation of OAuth protocols, specifically we have been integrating the many OAuth providers and streamlining the process.
                                     Although OAuth has advanced a lot, many providers still have varying, and sometimes incorrect, implementations of the protocol. We are here to help fix that by streamlining incorrect APIs and connecting different authentication providers in a unified system that we believe will work best for developers.
                                 </p>
                             </Project>
@@ -54,7 +54,7 @@ export default function Home() {
                                 Every hobby and every profession should probably have its own community platform, even more every community should have their platform on every language.
                                 The age of gold of the internet was the time in which a simple Google search would give you links to access online forums. Nowdays all you get is fake advertisement, fake opinions, and fake news!
                                 But old habits die hard, and community platforms are gaining space yet again.
-                                Asas Virtuais aims to enable community leaders to manage their communities with ease by providing open source tools.
+                                Asas Virtuais aims to enable community leaders to manage their communities with ease by providing open-source tools.
                             </Project>
                             <Project title='AI and Marketing'>
                                 No, this is not about FAKE ADS!
@@ -82,7 +82,7 @@ export default function Home() {
                                     The impact that bad game engines had in the gaming industry is beyond our imagination. The game engines of the past need to go, the game engines of tomorrow will be built with the needs of today, and today we need games to run with more peformance and less bugs. The bugs might be obvious, but why do we need more performance? Well, besides the fact that a gaming computer costs a fortune, which is an accessibility issue. Games are not supposed to run on user devices anymore, they are supposed to run on the cloud and that means gaming companies are going to start paying to run their games, this new market trend is unavoidable as the cloud gaming experience is cheaper and better than the console and computer counter-part. Cloud gamers put the PC master rest to rest.
                                 </p>
                                 <p>
-                                    Asas Virtuais aims to support the development of open sourced game engines written in Rust, while not directly acting on it, because we are a Web Development Open Source initative
+                                    Asas Virtuais aims to support the development of open-source game engines written in Rust, while not directly acting on it, because we are a Web Development open-source initative
                                 </p>
                             </Project>
                             <Project title='Rust for Streaming'>

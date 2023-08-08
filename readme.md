@@ -6,13 +6,13 @@ Insiders Presentation
 
 Asas Virtuais will provide services to the community of insiders as source of problems a to solve with innovative programming and as a mean of contribution.
 
-Open Source Presentation
+Open-source Presentation
 
-Asas Virtuais will provide access to its open source repositories created from the services provided to the insiders.
+Asas Virtuais will provide access to its open-source repositories created from the services provided to the insiders.
 
 Commercial Presentation
 
-Asas Virtuais will help talented programmers and open source contributors to find work opportunities and provide mentorship.
+Asas Virtuais will help talented programmers and open-source contributors to find work opportunities and provide mentorship.
 
 Partnership
 
@@ -21,7 +21,7 @@ Asas Virtuais will seek partnership with the best of the best when it comes to t
 ## Main Projects
 
 **Users Platform**
-Open Source implementation of user authentication with NextJS and Auth0
+Open-source implementation of user authentication with NextJS and Auth0
 - [auth.asasvirtuais.com](auth.asasvirtuais.com)
 
 **AI Embeddings Platform**
