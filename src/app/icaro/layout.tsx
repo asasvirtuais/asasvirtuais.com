@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/react'
 import makeMetadata from '@/make-metadata'
 import RootLayout from '../layout'
 
