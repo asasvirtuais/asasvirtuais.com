@@ -4,7 +4,7 @@ import RootLayout from '../layout'
 
 export const metadata = makeMetadata(
   'Ícaro Asas Virtuais',
-  'Developer, Designer, Dreamer'
+  'A self-taught programmer and an open-source enthusiast'
 )
 
 export default function PageLayout({
