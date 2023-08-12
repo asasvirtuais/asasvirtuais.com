@@ -28,7 +28,7 @@ Open-source implementation of user authentication with NextJS and Auth0
 Using AI Embeddings to document business services
 - [chat.asasvirtuais.com](chat.asasvirtuais.com)
 
-## Supported techonologies
+## Techonologies recommended by Asas Virtuais
 
 - Next
 - OAuth protocol
