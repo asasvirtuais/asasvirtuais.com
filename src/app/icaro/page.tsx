@@ -49,7 +49,7 @@ const Main = () => {
                                 <HStack ml='auto'>
                                     <IconButton as={Link} href='https://www.upwork.com/freelancers/icarocc' target='_blank' aria-label='upwork' color='#0CAA00'  variant='unstyled' size='lg' fontSize='4xl' icon={<BiLogoUpwork/>}/>
                                     <IconButton as={Link} href='https://www.linkedin.com/in/icaro-capobianco' target='_blank' aria-label='linkedin' color='#0A66C2' variant='unstyled' size='lg' fontSize='4xl' icon={<BsLinkedin/>}/>
-                                    <IconButton color={useColorModeValue('#333333', '#E6EDF3')} justifySelf='flex-end' as={Link} href='https://github.com/icaro-capobianco' target='_blank' aria-label='github' variant='unstyled' size='lg' fontSize='4xl' icon={<BsGithub/>}/>
+                                    <IconButton color={useColorModeValue('#333333', '#E6EDF3')} justifySelf='flex-end' as={Link} href='https://github.com/icarocapobianco' target='_blank' aria-label='github' variant='unstyled' size='lg' fontSize='4xl' icon={<BsGithub/>}/>
                                 </HStack>
                             </VStack>
                         </CardBody>
